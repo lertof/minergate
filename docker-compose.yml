@@ -1,0 +1,7 @@
+version: "3"
+services:
+
+  minergate:
+    image: minecoins/minergate-cli
+    cpu_shares: 1
+    command: ["-user", "zorcec+minergate@gmail.com", "-xmr"]
